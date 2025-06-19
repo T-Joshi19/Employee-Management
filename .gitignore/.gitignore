@@ -1,20 +1,21 @@
-# Maven
-/target
-*.log
+# Backend
+/target/
 *.class
+*.jar
+*.war
 
-# Node
-/node_modules
-emp-management-view/node_modules
-/.pnp
-.pnp.js
+# Frontend
+emp-management-view/node_modules/
+emp-management-view/build/
 
-# OS
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# System
 .DS_Store
 Thumbs.db
 
-# IDE
-/.vscode
-
-# Others
+# Environment
 .env
