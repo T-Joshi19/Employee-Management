@@ -1,0 +1,23 @@
+# Root .gitignore for both backend and frontend
+
+# Backend
+/target
+*.log
+
+# Frontend
+emp-management-view/node_modules
+emp-management-view/.env
+emp-management-view/.DS_Store
+
+
+# System
+*.class
+*.jar
+*.war
+*.iml
+*.log
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+
+
+body{
+  background-image: url('./images//emp.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  height: 100vh;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* slight dim */
+  z-index: -1;
+}
