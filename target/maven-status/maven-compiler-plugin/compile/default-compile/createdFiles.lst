@@ -1,5 +1,7 @@
-org\management\empmanagement\Employee.class
-org\management\empmanagement\EmpController.class
+org\management\empmanagement\EmployeeRepo.class
 org\management\empmanagement\EmployeeService.class
 org\management\empmanagement\EmployeeServiceImpl.class
 org\management\empmanagement\EmpmanagementApplication.class
+org\management\empmanagement\Employee.class
+org\management\empmanagement\EmpController.class
+org\management\empmanagement\EmployeeEntity.class
